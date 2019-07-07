@@ -1,0 +1,27 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0",
+    "extra_flags": "-DSTM32L0",
+    "f_cpu": "48000000L",
+    "mcu": "stm32l053l8t7",
+    "variant": "stm32l0",
+    "ldscript": "stm32l0xx6.ld"
+  },
+  "debug": {
+    "default_tools": ["stlink"],
+    "openocd_target": "stm32l0",
+    "svd_path": "STM32L053x.svd"
+  },
+  "frameworks": ["libopencm3", "mbed", "cmsis", "spl"],
+  "platform": "ststm32",  
+  "upload": {
+    "maximum_ram_size": 8192,
+    "maximum_size": 65536,
+    "protocol": "stlink",
+    "protocols": ["stlink"]
+  },
+  "name": "STM32L053R8 LCD board",
+  "url": "http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1848/PF254044",
+  "vendor": "ST"
+}

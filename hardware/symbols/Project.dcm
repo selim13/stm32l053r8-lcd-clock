@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BZV55-C3V6
+D 500mW Zener Diode, SOD80C
+K zener diode
+F https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf
+$ENDCMP
+#
+#End Doc Library
