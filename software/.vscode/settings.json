@@ -1,4 +1,13 @@
 {
   "editor.formatOnSave": true,
-  "C_Cpp.errorSquiggles": "Disabled"
+  "C_Cpp.errorSquiggles": "Disabled",
+  "terminal.integrated.env.linux": {
+    "PATH": "/home/selim13/.platformio/penv/bin:/home/selim13/.platformio/penv:~/.cargo/bin:/home/selim13/opt/golang1.8/bin:/home/selim13/go/bin:/snap/bin:/home/selim13/bin:/home/selim13/.local/bin:/home/selim13/.nvm/versions/node/v10.15.3/bin:~/.cargo/bin:/home/selim13/opt/golang1.8/bin:/home/selim13/go/bin:/snap/bin:/home/selim13/bin:/home/selim13/.local/bin:/home/selim13/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/selim13/.fzf/bin:/home/selim13/.gem/bin:/home/selim13/.gem/bin",
+    "PLATFORMIO_CALLER": "vscode"
+  },
+  "files.associations": {
+    "stm32l0xx_ll_rtc.h": "c",
+    "stm32l0xx_ll_gpio.h": "c",
+    "stm32l0xx_ll_rcc.h": "c"
+  }
 }
